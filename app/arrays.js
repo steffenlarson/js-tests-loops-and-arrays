@@ -33,9 +33,8 @@ function largestNum(arr) {
 // output: [16, 8, 4, 28]
 
 function elemsTimesLength(arr) {
-    let num = [i]
-    for (let i = 0; i <= arr.length; i++) {
-        num * arr.length
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i] * arr.length
     }
     return arr
 }
@@ -73,6 +72,7 @@ let flights = [{
 
 function flightCost(destination, firstClass) {
     //***hint: use the find method***
+
 
 }
 
